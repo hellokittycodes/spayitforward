@@ -1,0 +1,39 @@
+@font-face 
+{
+  font-family: "Wolf In The City";
+  src: url('wolfinthecity.otf') format('truetype');
+  /* Add more formats if needed */
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+
+  font-family : "Wolf In The City", sans-serif; 
+  font-size: 50px; 
+  
+  background-color: #ff6905;
+}
+h1 {
+  color: black;
+}
+p {
+  color: black;
+}
+.my-button 
+{
+  background-color: #ffffff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration-color: #000000;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
